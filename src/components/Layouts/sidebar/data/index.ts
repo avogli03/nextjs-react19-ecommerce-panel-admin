@@ -10,19 +10,19 @@ export const NAV_DATA = [
         items: [
           {
             title: "eCommerce",
-            url: "/main",
+            url: "/",
           },
         ],
       },
       {
         title: "Calendar",
-        url: "/main/calendar",
+        url: "/calendar",
         icon: Icons.Calendar,
         items: [],
       },
       {
         title: "Profile",
-        url: "/main/profile",
+        url: "/profile",
         icon: Icons.User,
         items: [],
       },
@@ -32,22 +32,22 @@ export const NAV_DATA = [
         items: [
           {
             title: "Form Elements",
-            url: "/main/forms/form-elements",
+            url: "/forms/form-elements",
           },
           {
             title: "Form Layout",
-            url: "/main/forms/form-layout",
+            url: "/forms/form-layout",
           },
         ],
       },
       {
         title: "Tables",
-        url: "/main/tables",
+        url: "/tables",
         icon: Icons.Table,
         items: [
           {
             title: "Tables",
-            url: "/main/tables",
+            url: "/tables",
           },
         ],
       },
@@ -57,7 +57,7 @@ export const NAV_DATA = [
         items: [
           {
             title: "Settings",
-            url: "/main/pages/settings",
+            url: "/pages/settings",
           },
         ],
       },
@@ -72,7 +72,7 @@ export const NAV_DATA = [
         items: [
           {
             title: "Basic Chart",
-            url: "/main/charts/basic-chart",
+            url: "/charts/basic-chart",
           },
         ],
       },
@@ -82,11 +82,11 @@ export const NAV_DATA = [
         items: [
           {
             title: "Alerts",
-            url: "/main/ui-elements/alerts",
+            url: "/ui-elements/alerts",
           },
           {
             title: "Buttons",
-            url: "/main/ui-elements/buttons",
+            url: "/ui-elements/buttons",
           },
         ],
       },
