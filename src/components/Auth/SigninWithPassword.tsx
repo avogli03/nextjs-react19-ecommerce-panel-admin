@@ -43,6 +43,7 @@ export default function SigninWithPassword() {
         handleChange={handleChange}
         value={data.email}
         icon={<UserIcon />}
+        required
       />
 
       <InputGroup
@@ -54,6 +55,7 @@ export default function SigninWithPassword() {
         handleChange={handleChange}
         value={data.password}
         icon={<PasswordIcon />}
+        required
       />
 
       <div className="mb-6 flex items-center justify-between gap-2 py-2 font-medium">

@@ -8,9 +8,9 @@ export function SignInForm() {
     <ShowcaseSection title="Sign In Form" className="!p-6.5">
       <form action="#">
         <InputGroup
-          label="Email"
-          type="email"
-          placeholder="Enter your email address"
+          label="text"
+          type="username"
+          placeholder="Enter your username"
           className="mb-4.5"
         />
 
