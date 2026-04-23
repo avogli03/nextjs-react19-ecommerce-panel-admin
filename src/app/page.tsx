@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Sign in",
+  title: "Sign in | IT B2B Ecommerce Platform",
 };
 
 export default function SignIn() {

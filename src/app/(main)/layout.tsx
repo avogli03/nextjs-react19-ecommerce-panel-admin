@@ -9,7 +9,7 @@ import "jsvectormap/dist/jsvectormap.css";
 import { Header } from "@/components/Layouts/header";
 import type { PropsWithChildren } from "react";
 
-export default function RootLayout({ children }: PropsWithChildren) {
+export default function MainLayout({ children }: PropsWithChildren) {
   return (
     <div className="flex min-h-screen">
       <Sidebar />
