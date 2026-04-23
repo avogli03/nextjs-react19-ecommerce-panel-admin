@@ -1,4 +1,5 @@
 import Signin from "@/components/Auth/Signin";
+import { ThemeToggleSwitch } from "@/components/Layouts/header/theme-toggle";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,7 +10,13 @@ export const metadata: Metadata = {
 
 export default function SignIn() {
   return (
-    <div className="flex h-screen overflow-hidden bg-white dark:bg-gray-dark">
+    <div className="relative flex h-screen overflow-hidden bg-white dark:bg-gray-dark">
+      
+      {/* Theme Toggle (Top Right) */}
+      <div className="absolute right-6 top-6 z-50">
+        <ThemeToggleSwitch />
+      </div>
+
       {/* Left Side - Form */}
       <div className="flex h-full w-full items-center justify-center xl:w-1/2">
         <div className="w-full max-w-md px-6 sm:px-12">
