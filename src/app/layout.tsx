@@ -11,11 +11,11 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | NextAdmin - Next.js Dashboard Kit",
-    default: "NextAdmin - Next.js Dashboard Kit",
+    template: "%s | IT B2B Ecommerce Platform",
+    default: "IT B2B Ecommerce Platform",
   },
   description:
-    "Next.js admin dashboard toolkit with 200+ templates, UI components, and integrations for fast dashboard development.",
+    "IT B2B Ecommerce Platform",
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
