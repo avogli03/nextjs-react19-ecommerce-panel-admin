@@ -1,5 +1,5 @@
 "use client";
-import { EmailIcon, PasswordIcon } from "@/assets/icons";
+import { UserIcon, PasswordIcon } from "@/assets/icons";
 import Link from "next/link";
 import React, { useState } from "react";
 import InputGroup from "../FormElements/InputGroup";
@@ -35,21 +35,21 @@ export default function SigninWithPassword() {
   return (
     <form onSubmit={handleSubmit}>
       <InputGroup
-        type="email"
-        label="Email"
+        type="text"
+        label="Username"
         className="mb-4 [&_input]:py-[15px]"
-        placeholder="Enter your email"
-        name="email"
+        placeholder="Enter your username..."
+        name="username"
         handleChange={handleChange}
         value={data.email}
-        icon={<EmailIcon />}
+        icon={<UserIcon />}
       />
 
       <InputGroup
         type="password"
         label="Password"
         className="mb-5 [&_input]:py-[15px]"
-        placeholder="Enter your password"
+        placeholder="Enter your password..."
         name="password"
         handleChange={handleChange}
         value={data.password}
@@ -73,7 +73,7 @@ export default function SigninWithPassword() {
 
         <Link
           href="/auth/forgot-password"
-          className="hover:text-primary dark:text-white dark:hover:text-primary"
+          className="hover:text-primary dark:text-primary dark:hover:text-white"
         >
           Forgot Password?
         </Link>
@@ -84,7 +84,7 @@ export default function SigninWithPassword() {
           type="submit"
           className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg bg-primary p-4 font-medium text-white transition hover:bg-opacity-90"
         >
-          Sign In
+          Log In
           {loading && (
             <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-solid border-white border-t-transparent dark:border-primary dark:border-t-transparent" />
           )}
